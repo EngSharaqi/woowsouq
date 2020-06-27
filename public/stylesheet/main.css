@@ -1,0 +1,217 @@
+/* #f57f17 */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    /* color: #333; */
+}
+
+ul li {
+	list-style: none;
+	direction: ltr;
+}
+
+ul li a{ color: #333 }
+
+.row{
+    margin-left: 0;
+    margin-right: 0
+}
+
+ul { margin-bottom: 0 }
+
+/* small top bar (Black Par) */
+.black-par {
+	width: 100%;
+	background-color: #333;
+	padding-bottom: 5px;
+}
+
+.black-par ul {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.black-par ul li {
+	display: inline-block;
+	list-style: unset;
+	margin-right: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.black-par ul li a {
+    color: #fff;
+    text-decoration: unset
+}
+
+.last{margin-right: 0}
+
+
+/* nav-bar */
+.row.navbar { padding: 20px 0 }
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.navbar ul li a {
+	color: #f57f17;
+	font-size: 20px;
+}
+
+.navbar ul li a.favorite{ color: #BEBEBE }
+
+.navbar ul li a.favorite:hover{ color: #f57f17 }
+
+.navbar form button {
+	background: #f57f17;
+	border: 0;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px 0 0 5px;
+	width: 10%;
+	padding: 4px 10px 6px;
+	border: 3px solid #f57f17;
+}
+
+.navbar form input {
+	padding: 7px;
+	font-size: 14px;
+	direction: rtl;
+	padding: 8px 17px 7px;
+	border-radius: 0 5px 5px 0;
+	border: 1px solid #f57f17;
+	color: #333;
+	width: 90%;
+}
+
+.navbar a img {
+	width: 66px;
+	float: right;
+	display: block;
+}
+
+.clear{ clear: both }
+
+
+/* categories */
+.categories { background-color: #eee; margin-bottom: 30px}
+.categories ul {
+	justify-content: space-between;
+	display: flex;
+	padding: 10px 0;
+}
+
+.categories ul li {
+	list-style: none;
+	display: inline-block;
+    direction: rtl;
+}
+
+.categories ul li a {
+	color: #333;
+}
+
+
+/* info & slider & best deals */
+.img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background-image: url('../images/profile/Mohamed\ A\ Sharaqi.jpg');
+	display: block;
+	margin: 30px auto 15px;
+	background-size: contain;
+}
+
+.info h4 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bolder;
+	color: #333;
+}
+
+.info p {
+	text-align: center;
+	margin-bottom: 0px;
+	color: #717171;
+	font-size: 13px;
+}
+
+.info button {
+	background-color: #f57f17;
+	border: 0;
+	padding: 6px 5px 11px;
+	width: 80%;
+	display: block;
+	margin: 20px auto;
+	border-radius: 20px;
+	font-size: 13px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.card {
+	border-radius: 15px;
+	padding-bottom: 10px;
+	box-shadow: 0 0 4px #00000025;
+	border: 0;
+	min-height: 360px;
+}
+
+.slide-img{
+    width: 100%;
+    height: 300px;
+    background-color: url('../images/slider/summer-up-to-70-sale-text-1051744.jpg');
+    background-size: cover
+}
+
+.info .col-lg-3 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.best-deals{
+    direction: rtl;
+    text-align: right;
+    padding: 30px 15px;
+}
+
+.best-deals h4{
+    margin: 0 0 15px auto
+}
+
+span{font-size: 14px; margin-left: 5px}
+
+.card ul li a {
+	color: #333;
+	font-size: 14px;
+}
+
+.info .card ul li {
+	margin-bottom: 10px;
+}
+
+#carouselExampleIndicators {
+	box-shadow: 0 0 4px #00000025;
+	min-height: 360px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.info img {
+	border-radius: 15px;
+	min-height: 360px;
+}
+
+/* .col-lg-6 .carousel-indicators li {
+	background-color: #ffd9b7 !important;
+}
+
+.col-lg-6 .carousel-indicators li.active {
+	background-color: #f57f17 !important;
+} */
+
