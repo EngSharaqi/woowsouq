@@ -25,6 +25,7 @@ ul { margin-bottom: 0 }
 	width: 100%;
 	background-color: #333;
 	padding-bottom: 5px;
+	cursor: pointer;
 }
 
 .black-par ul {
@@ -47,6 +48,55 @@ ul { margin-bottom: 0 }
 
 .last{margin-right: 0}
 
+.hesaby:hover .myprofile{
+	display: block
+}
+.myprofile {
+	display: none;
+	position: absolute;
+	z-index: 99999999999;
+	background: #333;
+	width: 150px;
+	padding: 10px 0;
+	top: 20px;
+	left: -170%;
+	text-align: center !important;
+	border-radius: 0 0 10px 10px
+}
+
+.myprofile a{display: block; padding: 10px}
+
+.myprofile a:hover{background: #f57f17}
+
+.myprofile button {
+	background: #f57f17;
+	padding: 7px 15px;
+	width: 100%;
+	border: 0;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.login a{
+	padding: 4px 10px;
+}
+.login a:hover{
+	background: #464646;
+}
+
+.myprofile button.signup {
+	background: #fff;
+	padding: 7px 15px;
+	width: 100%;
+	border: 0;
+	color: #f57f17;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 20px;
+	border: 1px solid #fff;
+}
 
 /* nav-bar */
 .row.navbar { padding: 20px 0 }
@@ -98,7 +148,12 @@ ul { margin-bottom: 0 }
 
 
 /* categories */
-.categories { background-color: #eee; margin-bottom: 30px}
+.categories {
+	background-color: #eee;
+	margin-bottom: 30px;
+	position: relative;
+}
+
 .categories ul {
 	justify-content: space-between;
 	display: flex;
@@ -115,7 +170,19 @@ ul { margin-bottom: 0 }
 	color: #333;
 }
 
+.choose {
+	position: absolute;
+	top: 38px;
+	right: 0;
+	background: #eee;
+	width: 100%;
+	z-index: 9999;
+	display: none
+}
 
+.categories:hover .choose {
+	display: block;
+}
 /* info & slider & best deals */
 .img {
 	width: 160px;
@@ -154,12 +221,12 @@ ul { margin-bottom: 0 }
 	font-weight: 700;
 }
 
-.card {
+.info .card {
 	border-radius: 15px;
 	padding-bottom: 10px;
 	box-shadow: 0 0 4px #00000025;
 	border: 0;
-	min-height: 360px;
+	max-height: 360px;
 }
 
 .slide-img{
@@ -214,4 +281,103 @@ span{font-size: 14px; margin-left: 5px}
 .col-lg-6 .carousel-indicators li.active {
 	background-color: #f57f17 !important;
 } */
+
+
+/* items */
+.card.item {
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+
+.item-img {
+	width: 87px;
+	height: 170px;
+	background-image: url('../images/products/Iphone\ X.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.item h4 {
+	font-size: 20px;
+	margin: 20px auto 7px;
+}
+
+.item p {
+	font-size: 14px;
+	color: #717171;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+.item-info {
+	margin-top: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 4px #00000025;
+	padding: 10px 20px;
+}
+
+.item h4 {
+	font-size: 18px;
+	margin: 5px auto 7px;
+	font-weight: bold;
+	color: #26437E;
+}
+
+.A, .B, .C, .D{
+	color: #F57F17;
+}
+
+.E{color: #7F7F7F}
+
+.price {
+	font-size: 18px;
+	margin-left: 5px;
+	font-weight: bold;
+	color: #26437E;
+}
+
+.fa-heart:hover{
+	color: #F57F17;
+	cursor: pointer;
+}
+
+.item a {
+	width: 100%;
+}
+
+.item button {
+	background: #f57f17;
+	border: 0;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	width: 100%;
+	margin: 20px auto 7px;
+	display: block;
+}
+
+.card.item {
+	margin-top: 25px;
+	border-radius: 15px
+}
+
+/* footer */
+.footer {
+	height: 100px;
+	background: #ececec;
+	color: #333;
+	text-align: center;
+	padding: 30px 15px;
+	margin-top: 40px;
+}
+
+h6{
+	opacity: 0.6;
+	font-size: 14px
+}
 

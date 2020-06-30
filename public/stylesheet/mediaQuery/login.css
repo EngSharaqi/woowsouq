@@ -1,0 +1,129 @@
+/* login */
+@media(max-width: 540px){
+    .myprofile button {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .myprofile {
+        width: 110px;
+        left: -150%;
+    }
+
+    .myprofile button.signup {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .black-par ul li a {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+
+    .black-par ul li {
+        margin-right: 5px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card > .row > a {  /* a of image (logo) */
+        width: 100%;
+    }
+
+    img {
+        width: 18%;
+        margin: 30px auto;
+    }
+
+    input {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    small { font-size: 11p; margin: 15px auto 20px }
+
+    button {
+        padding: 11px;
+        border-radius: 8px;
+        font-size: 11px;
+    }
+
+    h6{font-size: 10px}
+}
+
+@media(min-width: 541px) and (max-width: 590px){
+    .myprofile button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .myprofile {
+        width: 130px;
+        left: -150%;
+    }
+
+    .myprofile button.signup {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .black-par ul li a {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+
+    .black-par ul li {
+        margin-right: 7px;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .card > .row > a {  /* a of image (logo) */
+        width: 100%;
+    }
+
+    h6{font-size: 12px}
+}
+
+@media(min-width: 591px) and (max-width: 770px){
+    .black-par ul li a {
+        font-size: 11px;
+        margin-right: 0px;
+    }
+
+    .black-par ul li {
+        margin-right: 15px;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    .card > .row > a {  /* a of image (logo) */
+        width: 100%;
+    }
+}
+
+@media(min-width: 771px) and (max-width: 950px){
+    .card {
+        width: 60%;
+    }
+
+    .card > .row > a {  /* a of image (logo) */
+        width: 100%;
+    }
+}
+
+@media(min-width: 951px) and (max-width: 1175px){
+    .card {
+        width: 45%;
+    }
+
+    .card > .row > a {  /* a of image (logo) */
+        width: 100%;
+    }
+}

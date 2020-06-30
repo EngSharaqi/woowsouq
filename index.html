@@ -11,7 +11,7 @@
         crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/stylesheet/main.css"> <!-- main Style -->
-    <link rel="stylesheet" href="public/stylesheet/mediaQuery.css"> <!-- mediaQuery Style -->
+    <link rel="stylesheet" href="public/stylesheet/mediaQuery/main.css"> <!-- mediaQuery Style -->
     <title>woowsouq | Home</title>
 </head>
 
@@ -19,12 +19,30 @@
     <!-- small top par (Black Par) -->
     <div class="row black-par">
         <ul>
-            <li><a href="/">بيع مع واو سوق</a></li>
+            <li><a href="signup-seller.html">بيع مع واو سوق</a></li>
             <li><a href="/">خدمة العملاء</a></li>
             <li><a href="/">خدمة العملاء</a></li>
             <li><a href="/">تطبيق</a></li>
             <li><a href="/">المفضلة</a></li>
-            <li><a href="/">حسابي</a></li>
+            <li class="hesaby" style="position: relative"><a style="color: #fff"> <i class="fas fa-caret-down"></i> حسابي</a>
+                <!-- if loged In (Un-comment this section if authenticated)-->
+                <!-- <ul class="myprofile">
+                    <li style="margin: 0; width: 100%">
+                        <a href="myprofile">الصفحة الشخصية</a>
+                        <a href="logout">تسجيل الخروج</a>
+                    </li>
+                </ul> -->
+
+                <!-- else (log out) -->
+                <ul class="myprofile login">
+                    <li style="margin: 0; width: 100%">
+                        <a href="login.html"><button>تسجيل الدخول</button></a>
+                        <a href="signup.html"><button class="signup">إنشاء حساب جديد</button></a>
+                    </li>
+                </ul>
+            </li>
+            
+
             <li class="last"><a href="/">English</a></li>
         </ul>
     </div>
@@ -60,10 +78,11 @@
     </div>
 
     <!-- categories -->
-    <div class="row categories">
+    <div class="categories">
+        <div class="row ">
         <div class="container">
             <!-- الاقسام هتطلع معاك من اليمين للشمال واول عنصر ع اليمين مكتوب تحت خالص
-                يعني في الكود مترتبة من تحت لفوق وفي المتصفح من اليمين للشمال -->
+                    يعني في الكود مترتبة من تحت لفوق وفي المتصفح من اليمين للشمال -->
             <ul>
                 <li><a href="/">إلكترونيات</a></li>
                 <li><a href="/">موبايلات</a></li>
@@ -81,11 +100,46 @@
             </ul>
         </div>
     </div>
+    
+    <div class="choose">
+            <div class="container">
+                    <div class="row" style="text-align: right; padding: 40px 0 20px 0">
+                            <div class="col-sm-4">
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                            </div>
+                            <div class="col-sm-4">
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                            </div>
+                            <div class="col-sm-4">
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                                    <a href=""><p>اطفال</p></a>
+                            </div>
+                    </div>
+            </div>
+    </div>
+    </div>
+    
 
     <!-- info & slider & best deals  -->
     <div class="row info">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-3">
                     <!-- if loged in (authenticated) -->
@@ -130,24 +184,431 @@
                     <div class="card best-deals">
                         <h4>أفضل العروض</h4>
                         <ul>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
-                                
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+                            <li><a href="/">الكاميرات الرقمية <span><i class="fas fa-camera"></i></span></a></li>
+
                         </ul>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
+    <!-- Items -->
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding-right: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding-right: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding-right: 0">
+                    <div class="card item">
+                        <div class="item-img"></div>
+                        <div class="item-info">
+                            <div class="row">
+                                <h4>ايفون اكس</h4>
+                            </div>
+                            <div class="row">
+                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                            </div>
+                            <div class="row">
+                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                            </div>
+                            <div class="row" style="margin: 10px 0 0 0;">
+                                <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                        class="fas fa-heart E"></i></div>
+                                <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                    <!-- old price -->
+                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                    <!-- new price -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <a href="/">
+                                    <button>أضف الى عربة الشراء</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h6>جميع الحقق محفوظة لدى واو سوق 2020</h6>
+    </div>
+    
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
         crossorigin="anonymous"></script>

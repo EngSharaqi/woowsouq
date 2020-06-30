@@ -1,0 +1,70 @@
+form label {
+	color: #333;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0 25px;
+	color: #23417f;
+	width: 100%;
+}
+
+img {
+	width: 22%;
+	margin: 30px auto 30px;
+}
+
+
+ul {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ef7810;
+}
+
+.svg-inline--fa.fa-circle.fa-w-16 {
+	color: #ef7810;
+	font-size: 9px;
+}
+
+.svg-inline--fa.fa-circle.fa-w-16.II, .svg-inline--fa.fa-circle.fa-w-16.III {
+	color: #ef78106b;
+}
+
+.svg-inline--fa.fa-circle.fa-w-16, .svg-inline--fa.fa-circle.fa-w-16.two {
+	color: #ef7810;
+	font-size: 9px;
+}
+
+.svg-inline--fa.fa-circle.fa-w-16.one, .svg-inline--fa.fa-circle.fa-w-16.III.three {
+	color: #ef78106b;
+}
+
+.svg-inline--fa.fa-arrow-left.fa-w-14 {
+	font-size: 16px;
+	margin-top: 7px;
+}
+
+select{ border: 1px solid #f57f1733 }
+option {
+	color: #23417f;
+}
+
+
+.step-two, .step-three{display: none}
+
+.dots{
+    cursor:not-allowed
+}
+
+.step-three button[type="submit"] {
+	background: transparent;
+	color: #ef7810;
+	padding-top: 0;
+	cursor: pointer;
+}
