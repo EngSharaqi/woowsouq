@@ -141,4 +141,15 @@ button {
 
 @media ( max-width: 767px ){
 	.det button { margin: 15px auto}
+	p {
+		font-size: 12px;
+	}
+
+	h4 {
+		font-size: 14px;
+	}
+
+	#rom {
+		font-size: 12px;
+	}
 }

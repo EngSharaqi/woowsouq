@@ -75,3 +75,9 @@ form a { color: #333 }
 .card > .row > a {  /* a of image (logo) */
     width: 100%;
 }
+
+#email, #password, #credit, #phone, #cardNum, #exp, .form-control { font-size: 14px }
+
+.svg-inline--fa.fa-circle.fa-w-16.II, .svg-inline--fa.fa-circle.fa-w-16.I, .svg-inline--fa.fa-circle.fa-w-16.III {
+	font-size: 9px;
+}

@@ -144,3 +144,17 @@
 @media ( min-width: 1051px ) {
     .login-card { width: 30% }
 }
+
+@media ( max-width: 1135px ) {
+    #email, #password, #credit, #phone, #cardNum, #exp, .form-control { font-size: 12px}
+    .svg-inline--fa.fa-circle.fa-w-16.II, .svg-inline--fa.fa-circle.fa-w-16.I, .svg-inline--fa.fa-circle.fa-w-16.III {
+        font-size: 7px;
+    }
+
+    ul li { font-size: 10px }
+
+    .svg-inline--fa.fa-arrow-left.fa-w-14 {
+        font-size: 13px;
+        margin-top: 7px;
+    }
+}
