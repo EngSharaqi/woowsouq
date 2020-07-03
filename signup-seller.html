@@ -51,117 +51,122 @@
     </div>
 
     <!-- Signup as a seller form -->
-    <div class="card">
-        <!-- logo -->
-        <div class="row">
-            <a style="text-align: center" href="index.html"><img src="public/images/logo/Colored Version (Slogan) - Woowsouq logo.png"
-                    alt="woowsouq" /></a>
-        </div>
-       
-        <!-- steps (one, Two, Three) -->
-        <form action="" method="post">
-            <!-- step one -->
-            <div class="step-one">
-                <label>المعلومات الشخصية</label>
-                <div class="login-section personal">
-                    <input type="email" name="email" id="email" placeholder="البريد الإلكتروني" />
-                    <input type="text" name="email" id="email" placeholder="إسم المستخدم" />
-                    <input type="password" name="password" id="password" placeholder="كلمة السر" />
-                </div>
-
-                <div class="row">
-                    <ul>
-                        <ul style="margin-top: 80px">
-                            <!-- <div class="clear"></div> -->
-                            <li class="dots">
-                                <i class="fas fa-circle I"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle II"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle III"></i></li>
-                            </li>
-
-                            <li style="float: right; cursor: pointer" id='toStepTow'>التالي</li>
-                            <!-- <div class="clear"></div> -->
-                        </ul>
-                </div>
+    <div class="login-card">
+        <div class="card">
+            <!-- logo -->
+            <div class="row">
+                <a style="text-align: center" href="index.html"><img src="public/images/logo/Colored Version (Slogan) - Woowsouq logo.png"
+                        alt="woowsouq" /></a>
             </div>
 
-            <!-- step two -->
-            <div class="step-two">
-                <label>معلومات الحساب</label>
-                <div class="login-section credit">
-                    <input type="email" name="email" id="email" placeholder="البريد الإلكتروني" />
-                    <select name="credit" id="credit">
-                        <option value="na">نوع الحساب</option>
-                        <option value="shop">محل</option>
-                        <option value="company">شركة</option>
-                    </select>
-                    <input type="tel" name="phone" id="phone" placeholder="رقم الهاتف" />
+            <!-- steps (one, Two, Three) -->
+            <form action="" method="post">
+                <!-- step one -->
+                <div class="step-one">
+                    <label>المعلومات الشخصية</label>
+                    <div class="login-section personal">
+                        <input type="email" name="email" id="email" placeholder="البريد الإلكتروني" />
+                        <input type="text" name="email" id="email" placeholder="إسم المستخدم" />
+                        <input type="password" name="password" id="password" placeholder="كلمة السر" />
+                    </div>
+
+                    <div class="row">
+                        <ul>
+                            <ul style="margin-top: 80px">
+                                <!-- <div class="clear"></div> -->
+                                <li class="dots">
+                                    <i class="fas fa-circle I"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle II"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle III"></i></li>
+                                </li>
+
+                                <li style="float: right; cursor: pointer" id='toStepTow'>التالي</li>
+                                <!-- <div class="clear"></div> -->
+                            </ul>
+                    </div>
                 </div>
 
-                <div class="row">
-                    <ul>
-                        <ul style="margin-top: 80px">
-                            <li style="float: left; cursor: pointer" id='toStepOneArrow'><i class="fas fa-arrow-left"></i></li>
-                            <li class="dots">
-                                <i class="fas fa-circle I one"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle II two"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle III three"></i></li>
-                            </li>
+                <!-- step two -->
+                <div class="step-two">
+                    <label>معلومات الحساب</label>
+                    <div class="login-section credit">
+                        <input type="email" name="email" id="email" placeholder="البريد الإلكتروني" />
+                        <select name="credit" id="credit">
+                            <option value="na">نوع الحساب</option>
+                            <option value="shop">محل</option>
+                            <option value="company">شركة</option>
+                        </select>
+                        <input type="tel" name="phone" id="phone" placeholder="رقم الهاتف" />
+                    </div>
 
-                            <li style="float: right; cursor: pointer" id='toStepThree'>التالي</li>
-                        </ul>
+                    <div class="row">
+                        <ul>
+                            <ul style="margin-top: 80px">
+                                <li style="float: left; cursor: pointer" id='toStepOneArrow'><i class="fas fa-arrow-left"></i></li>
+                                <li class="dots">
+                                    <i class="fas fa-circle I one"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle II two"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle III three"></i></li>
+                                </li>
+
+                                <li style="float: right; cursor: pointer" id='toStepThree'>التالي</li>
+                            </ul>
+                    </div>
                 </div>
-            </div>
 
-            <!-- step three -->
-            <div class="step-three">
-                <label>معلومات الحساب البنكي</label>
-                <div class="login-section credit">
-                    <select name="credit" id="credit">
-                        <option value="na">نوع البطاقة</option>
-                        <option value="shop">Visa</option>
-                        <option value="company">Master Card</option>
-                    </select>
-                    <input type="text" name="cardNum" id="cardNum" placeholder="رقم البطاقة" />
-                    <div class="row" style="direction: rtl">
+                <!-- step three -->
+                <div class="step-three">
+                    <label>معلومات الحساب البنكي</label>
+                    <div class="login-section credit">
+                        <select name="credit" id="credit">
+                            <option value="na">نوع البطاقة</option>
+                            <option value="shop">Visa</option>
+                            <option value="company">Master Card</option>
+                        </select>
+                        <input type="text" name="cardNum" id="cardNum" placeholder="رقم البطاقة" />
+                        <div class="row" style="direction: rtl">
                             <div style="padding-right: 0" class="col">
-                              <input type="date" name="exp" id="exp" placeholder="تاريخ الإنتهاء" />
+                                <input type="date" name="exp" id="exp" placeholder="تاريخ الإنتهاء" />
                             </div>
-                            <div  style="padding-left: 0" class="col">
-                              <input style=" border:0; border-bottom: 1px solid #f57f1733; color: #23417f" type="text" class="form-control" placeholder="CVV">
+                            <div style="padding-left: 0" class="col">
+                                <input style=" border:0; border-bottom: 1px solid #f57f1733; color: #23417f" type="text"
+                                    class="form-control" placeholder="CVV">
                             </div>
-                          </div>
-                    
-                </div>
+                        </div>
 
-                <div class="row">
-                    <ul>
-                        <ul style="margin-top: 80px">
-                            <li style="float: left; cursor: pointer" id='toStepTowArrow'><i class="fas fa-arrow-left"></i></li>
-                            <li class="dots">
-                                <i class="fas fa-circle I one"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle II three"></i>
-                            </li>
-                            <li class="dots">
-                                <i class="fas fa-circle III two"></i></li>
-                            </li>
+                    </div>
 
-                            <li style="float: right; cursor: pointer" id='toStepThree'><button type="submit">التالي</button></li>
-                        </ul>
+                    <div class="row">
+                        <ul>
+                            <ul style="margin-top: 80px">
+                                <li style="float: left; cursor: pointer" id='toStepTowArrow'><i class="fas fa-arrow-left"></i></li>
+                                <li class="dots">
+                                    <i class="fas fa-circle I one"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle II three"></i>
+                                </li>
+                                <li class="dots">
+                                    <i class="fas fa-circle III two"></i></li>
+                                </li>
+
+                                <li style="float: right; cursor: pointer" id='toStepThree'><button type="submit">التالي</button></li>
+                            </ul>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
+
+
 
     <!-- footer -->
     <div class="footer">
@@ -169,10 +174,14 @@
     </div>
 
     <!-- script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="public/js/main.js"></script>
 </body>
 

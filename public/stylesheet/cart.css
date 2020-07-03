@@ -1,0 +1,55 @@
+.cart-items ul {
+    width: 100%;
+    direction: rtl;
+    text-align: right
+}
+
+.cart-items ul li {
+    direction: rtl
+}
+
+.cart-items ul h4 {
+	display: inline-block;
+	width: auto;
+	margin-left: 5px;
+	width: 22%;
+	text-align: right;
+}
+
+.itembyitem img {
+	width: 40px;
+	margin: 0 auto;
+}
+
+.itembyitem, .itembyitem h4, .itembyitem p { text-align: right !important }
+
+.itembyitem p {
+	font-size: 13px;
+}
+
+.itembyitem h4 {
+	font-size: 18px;
+}
+
+.itembyitem ul li h4 {
+	font-size: 14px;
+}
+
+.itembyitem ul li span {
+	font-size: 12px;
+}
+
+hr { width: 75%; display: block; margin: 30px auto}
+
+.info h4 {
+	font-size: 16px;
+    text-align: right;
+    color: #26437E;
+}
+
+.info p {
+	text-align: right;
+	margin-bottom: 60px;
+}
+
+.footer { margin-top: 90px }

@@ -30,4 +30,14 @@ $(document).ready(function(){
         $(".step-two").show();
         
     });
+
+    $('.svg-inline--fa.fa-bars.fa-w-14, .fa-bars').click (()=>{
+        $('.side-bar-con').show();
+        // $('body').css('overflow-y', 'hidden');
+    });
+
+    $('.svg-inline--fa.fa-times.fa-w-11, .fa-times').click (()=>{
+        $('.side-bar-con').hide();
+        // $('body').css('overflow-y', 'scroll');
+    });
 });

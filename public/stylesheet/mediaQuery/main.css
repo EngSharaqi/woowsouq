@@ -1,4 +1,157 @@
+/* top par */
+@media ( max-width: 992px ){
+    ul li.AppearsInLgOnly, .categories.AppearsInLgOnly, .AppearsInLgOnly {display: none !important}
+    .navbar a img {
+        width: 100%;
+    }
+
+    .navbar form input, form input {
+        font-size: 12px;
+        padding: 5px 9px 5px;
+        width: 70%;
+    }
+
+    .navbar form button, form button {
+        font-size: 12px;
+        width: 14%;
+        padding: 6px 10px 5px;
+    }
+
+    .svg-inline--fa.fa-heart.fa-w-16.E {
+        font-size: 14px;
+    }
+}
+
+@media ( min-width: 993px ){
+    ul li.AppearsInSmOnly, .AppearsInSmOnly {display: none !important}
+}
+
 @media(max-width: 870px){
     .black-par, .categories{display: none}
 }
 
+/* 871px */
+
+@media( max-width: 991px) {
+    .info .col-lg-3{ display: none }
+}
+
+@media ( max-width: 767px ) {
+    .img-slide-a, .img-slide-b { height: 187px }
+    #carouselExampleIndicators { min-height: auto }
+
+    .item-img {
+        width: 40px;
+        height: 75px;
+    }
+
+    .card.item { padding: 10px 0 0 0 }
+
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding-right: 7px !important;
+        padding-left: 7px !important;
+    }
+
+    .item-info {
+        margin-top: 10px;
+        padding: 7px 10px;
+    }
+
+    .item h4 { font-size: 14px }
+
+    .item p { font-size: 10px }
+
+    .price { font-size: 14px }
+
+    .E { font-size: 10px }
+
+    .item button {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 10px auto 7px
+    }
+
+    .card.item { margin-top: 20px }
+
+    .item-info {
+        box-shadow: 0 0 2px #00000025;
+    }
+
+    .card.item {
+        box-shadow: 0 0 2px #00000025;
+        border: 0;
+    }
+}
+
+@media (max-width: 1199px){
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding-right: 7px !important;
+        padding-left: 7px !important;
+    }
+}
+
+
+/* slider & info */
+@media ( min-width: 992px ) and ( max-width: 1199px ) {
+    .img {
+        width: 100px;
+        height: 100px;
+        margin: 15px auto 15px;
+    }
+
+    .info h4 {
+        font-size: 12px;
+    }
+
+    .info p { font-size: 12px }
+
+    .info button {
+        padding: 5px 5px 10px;
+        margin: 15px auto 10px;
+        font-size: 12px;
+    }
+
+    .info .card {
+        max-height: 257px;
+    }
+
+    #carouselExampleIndicators {
+        max-height: 257px;
+    }
+
+    .img-slide-a, .img-slide-b {
+        max-height: 257px;
+    }
+
+    #carouselExampleIndicators { min-height: 257px }
+
+    .info .card ul li {
+        margin-bottom: 3px;
+    }
+
+    .card ul li a {
+        font-size: 12px;
+    }
+
+    .best-deals { padding: 15px 15px }
+
+    .best-deals h4 { margin: 0 0 5px auto }
+
+    .card ul li span {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
+
+/* side-bar */
+@media( min-width: 575px ) and ( max-width: 725px ) {
+    .side-bar { width: 60%}
+}
+
+@media( min-width: 726px ) and ( max-width: 920px ) {
+    .side-bar { width: 50%}
+}
+
+@media( min-width: 921px ) {
+    .side-bar { width: 30%}
+}

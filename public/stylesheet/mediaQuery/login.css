@@ -78,11 +78,11 @@
         margin-right: 7px;
     }
 
-    .card {
+    .login-card {
         width: 70%;
     }
 
-    .card > .row > a {  /* a of image (logo) */
+    .login-card > .card > .row > a {  /* a of image (logo) */
         width: 100%;
     }
 
@@ -99,31 +99,48 @@
         margin-right: 15px;
     }
 
-    .card {
+    .login-card {
         width: 60%;
     }
 
-    .card > .row > a {  /* a of image (logo) */
+    .login-card > .card > .row > a {  /* a of image (logo) */
         width: 100%;
     }
 }
 
 @media(min-width: 771px) and (max-width: 950px){
-    .card {
+    .login-card {
         width: 60%;
     }
 
-    .card > .row > a {  /* a of image (logo) */
+    .login-card > .card > .row > a {  /* a of image (logo) */
         width: 100%;
     }
 }
 
 @media(min-width: 951px) and (max-width: 1175px){
-    .card {
+    .login-card {
         width: 45%;
     }
 
-    .card > .row > a {  /* a of image (logo) */
+    .login-card > .card > .row > a {  /* a of image (logo) */
         width: 100%;
     }
+}
+
+
+@media ( min-width: 685px ) and (max-width: 765px) {
+    .login-card { width: 50% }
+}
+
+@media ( min-width: 766px ) and (max-width: 867px) {
+    .login-card { width: 45% }
+}
+
+@media ( min-width: 868px ) and (max-width: 1050px) {
+    .login-card { width: 37% }
+}
+
+@media ( min-width: 1051px ) {
+    .login-card { width: 30% }
 }

@@ -1,0 +1,17 @@
+.side-bar .side-bar-profile {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	color: #23417f;
+}
+
+.itembyitem p {
+	font-size: 13px;
+	text-align: center !important;
+}
+
+.side-bar, .side-bar-con {
+	min-height: 214px;
+}
+
+.footer { margin-top: 170px }
