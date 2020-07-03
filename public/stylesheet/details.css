@@ -125,3 +125,20 @@ button {
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	display: none;
 }
+
+.card.det, .card.item, .card {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.SRCH button {
+	border-radius: 5px 0 0 5px !important;
+}
+
+@media ( max-width: 540px ){
+	button { width: 80%; border-radius: 25px !important}
+}
+
+@media ( max-width: 767px ){
+	.det button { margin: 15px auto}
+}
