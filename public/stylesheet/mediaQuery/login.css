@@ -146,7 +146,7 @@
 }
 
 @media ( max-width: 1135px ) {
-    #email, #password, #credit, #phone, #cardNum, #exp, .form-control { font-size: 12px}
+    #email, #password, #credit, #phone, #cardNum, #exp, .form-control, #cat { font-size: 12px}
     .svg-inline--fa.fa-circle.fa-w-16.II, .svg-inline--fa.fa-circle.fa-w-16.I, .svg-inline--fa.fa-circle.fa-w-16.III {
         font-size: 7px;
     }
