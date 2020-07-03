@@ -18,169 +18,207 @@
 </head>
 
 <body>
-    <!-- small top par (Black Par) -->
-    <div class="row black-par">
-        <ul>
-            <li><a href="signup-seller.html">بيع مع واو سوق</a></li>
-            <li><a href="/">خدمة العملاء</a></li>
-            <li><a href="/">خدمة العملاء</a></li>
-            <li><a href="/">تطبيق</a></li>
-            <li><a href="/">المفضلة</a></li>
-            <li class="hesaby" style="position: relative"><a style="color: #fff"> <i class="fas fa-caret-down"></i>
-                    حسابي</a>
-                <!-- if loged In (Un-comment this section if authenticated)-->
-                <!-- <ul class="myprofile">
+    <!-- side-bar -->
+    <div class="side-bar-con AppearsInSmOnly">
+            <ul class="side-bar AppearsInSmOnly">
+                <li class="side-bar-profile">
+                    <i class="fas fa-times"></i>
+                    <div class="side-bar-img"></div>
+                    <h5>محمد عبدالحميد شراقي</h5>
+                    <p>muhammadsharaqi@gmail.com</p>
+                </li>
+                <ul class="scroll">
+                    <!-- <li class="side-bar-cat"><i class="fas fa-caret-down"></i> الأقسام</li> -->
+                    <!-- <li class="side-bar-cat">أفضل العروض</li> -->
+                    <!-- <li class="side-bar-cat">المفضلة</li> -->
+                    <li class="side-bar-cat">الملف الشخصي</li>
+                    <li class="side-bar-cat">الضبط</li>
+                    <li class="side-bar-cat">حول واو سوق</li>
+                    <li class="side-bar-cat">تسجيل الخروج</li>
+                </ul>
+            </ul>
+        </div>
+        <!-- small top par (Black Par) -->
+        <div class="row black-par">
+            <ul>
+                <li><a href="signup-seller.html">بيع مع واو سوق</a></li>
+                <li><a href="/">خدمة العملاء</a></li>
+                <li><a href="/">خدمة العملاء</a></li>
+                <li><a href="/">تطبيق</a></li>
+                <li><a href="/">المفضلة</a></li>
+                <li class="hesaby" style="position: relative"><a style="color: #fff"> <i class="fas fa-caret-down"></i>
+                        حسابي</a>
+                    <!-- if loged In (Un-comment this section if authenticated)-->
+                    <!-- <ul class="myprofile">
                         <li style="margin: 0; width: 100%">
                             <a href="myprofile">الصفحة الشخصية</a>
                             <a href="logout">تسجيل الخروج</a>
                         </li>
                     </ul> -->
-
-                <!-- else (log out) -->
-                <ul class="myprofile login">
-                    <li style="margin: 0; width: 100%">
-                        <a href="login.html"><button>تسجيل الدخول</button></a>
-                        <a href="signup.html"><button class="signup">إنشاء حساب جديد</button></a>
-                    </li>
-                </ul>
-            </li>
-
-
-            <li class="last"><a href="/">English</a></li>
-        </ul>
-    </div>
-
-    <!-- nav-bar -->
-    <div class="row navbar">
-        <div class="container">
-
-            <div class="col-lg-2">
-                <ul>
-                    <li><a href="/"><i class="fas fa-shopping-cart"></i></a></li>
-                    <li><a href="/" class="favorite"><i class="fas fa-heart"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-8">
-                <form action="/" method="post">
-                    <div class="SRCH">
-                        <button type="submit"><i class="fas fa-search"></i></button><input type="search" name="search"
-                            id="search" placeholder="ما الذي تبحث عنه">
-                    </div>
-                </form>
-            </div>
-
-            <div class="col-lg-2">
-                <a href="/">
-                    <img src="public/images/logo/Colored Version (Slogan) - Woowsouq logo.png" alt="woowsouq" />
-                    <div class="clear"></div>
-                </a>
-            </div>
-
+    
+                    <!-- else (log out) -->
+                    <ul class="myprofile login">
+                        <li style="margin: 0; width: 100%">
+                            <a href="login.html"><button>تسجيل الدخول</button></a>
+                            <a href="signup.html"><button class="signup">إنشاء حساب جديد</button></a>
+                        </li>
+                    </ul>
+                </li>
+    
+    
+                <li class="last"><a href="/">English</a></li>
+            </ul>
         </div>
-    </div>
-
-    <!-- categories -->
-    <div class="categories">
-        <div class="row ">
+    
+        <!-- nav-bar -->
+        <div class="row navbar">
             <div class="container">
-                <!-- الاقسام هتطلع معاك من اليمين للشمال واول عنصر ع اليمين مكتوب تحت خالص
-                    يعني في الكود مترتبة من تحت لفوق وفي المتصفح من اليمين للشمال -->
-                <ul>
-                    <li><a href="/">إلكترونيات</a></li>
-                    <li><a href="/">موبايلات</a></li>
-                    <li><a href="/">ملابس</a></li>
-                    <li><a href="/">ألعاب</a></li>
-                    <li><a href="/">رياضة</a></li>
-                    <li><a href="/">إلكترونيات</a></li>
-                    <li><a href="/">موبايلات</a></li>
-                    <li><a href="/">ملابس</a></li>
-                    <li><a href="/">ألعاب</a></li>
-                    <li><a href="/">رياضة</a></li>
-                    <li><a href="/">ألعاب</a></li>
-                    <li><a href="/">رياضة</a></li>
-                    <li><a href="/">كل الأقسام</a></li>
-                </ul>
+    
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                    <ul>
+                        <li class="AppearsInLgOnly"><a href="/"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="AppearsInLgOnly"><a href="/" class="favorite"><i class="fas fa-heart"></i></a></li>
+                        <li class="AppearsInSmOnly">
+                            <i class="fas fa-bars"></i>
+                        </li>
+                    </ul>
+    
+    
+                </div>
+    
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                    <form action="/" method="post" class="">
+                        <div class="SRCH">
+                            <button type="submit"><i class="fas fa-search"></i></button><input type="search" name="search"
+                                id="search" placeholder="ما الذي تبحث عنه">
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                    <a href="/">
+                        <img src="public/images/logo/Colored Version (Slogan) - Woowsouq logo.png" alt="woowsouq" />
+                        <div class="clear"></div>
+                    </a>
+                </div>
+    
             </div>
         </div>
-
-        <div class="choose">
+    
+        <!-- search in small screens only -->
+        <!-- <div class="row SRCHinSMF">
             <div class="container">
-                <div class="row" style="text-align: right; padding: 40px 0 20px 0">
-                    <div class="col-sm-4">
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
-                        <a href="">
-                            <p>اطفال</p>
-                        </a>
+                <div class="col-12">
+                    <form action="/" method="post" class="AppearsInSmOnly">
+                        <div class="SRCH SRCHinSM">
+                            <button type="submit"><i class="fas fa-search"></i></button><input type="search" name="search" id="search"
+                                placeholder="ما الذي تبحث عنه">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+        <!-- categories -->
+        <div class="categories AppearsInLgOnly">
+            <div class="row ">
+                <div class="container">
+                    <!-- الاقسام هتطلع معاك من اليمين للشمال واول عنصر ع اليمين مكتوب تحت خالص
+                        يعني في الكود مترتبة من تحت لفوق وفي المتصفح من اليمين للشمال -->
+                    <ul>
+                        <li><a href="/">إلكترونيات</a></li>
+                        <li><a href="/">موبايلات</a></li>
+                        <li><a href="/">ملابس</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">إلكترونيات</a></li>
+                        <li><a href="/">موبايلات</a></li>
+                        <li><a href="/">ملابس</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">كل الأقسام</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="choose">
+                <div class="container">
+                    <div class="row" style="text-align: right; padding: 40px 0 20px 0">
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    
     <!-- details -->
     <div class="container">
         <div class="row">
