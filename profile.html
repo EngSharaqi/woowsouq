@@ -38,13 +38,13 @@
                 <!-- <li class="side-bar-cat">أفضل العروض</li> -->
                 <!-- <li class="side-bar-cat">المفضلة</li> -->
                 <li class="side-bar-cat">الملف الشخصي</li>
+                <li class="side-bar-cat"><a href="fav.html" style="color: #26437E">المفضلة</a></li>
                 <li class="side-bar-cat">الضبط</li>
                 <li class="side-bar-cat">حول واو سوق</li>
                 <li class="side-bar-cat">تسجيل الخروج</li>
             </ul>
         </ul>
     </div>
-
     <!-- small top par (Black Par) -->
     <div class="row black-par">
         <ul>
@@ -52,16 +52,16 @@
             <li><a href="/">خدمة العملاء</a></li>
             <li><a href="/">خدمة العملاء</a></li>
             <li><a href="/">تطبيق</a></li>
-            <li><a href="/">المفضلة</a></li>
+            <li><a href="fav.html">المفضلة</a></li>
             <li class="hesaby" style="position: relative"><a style="color: #fff"> <i class="fas fa-caret-down"></i>
                     حسابي</a>
                 <!-- if loged In (Un-comment this section if authenticated)-->
                 <!-- <ul class="myprofile">
-                    <li style="margin: 0; width: 100%">
-                        <a href="myprofile">الصفحة الشخصية</a>
-                        <a href="logout">تسجيل الخروج</a>
-                    </li>
-                </ul> -->
+                                <li style="margin: 0; width: 100%">
+                                    <a href="myprofile">الصفحة الشخصية</a>
+                                    <a href="logout">تسجيل الخروج</a>
+                                </li>
+                            </ul> -->
 
                 <!-- else (log out) -->
                 <ul class="myprofile login">
@@ -90,7 +90,7 @@
                     </li>
                 </ul>
 
-                
+
             </div>
 
             <div class="col-8 col-sm-8 col-md-8 col-lg-8">
@@ -112,69 +112,325 @@
         </div>
     </div>
 
-        <!-- details -->
-        <div class="container">
-                <div class="row">
-                    <div class="col-xs col-sm-12 col-md-6 col-lg-6">
-                        <div class="row">
-                            <div class="card cart-items">
-                                <div class="row itembyitem">
-                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                        <div class="row">
-                                                <ul class="side-bar">
-                                                        <li class="side-bar-profile">
-                                                            <div class="side-bar-img"></div>
-                                                            <h5>محمد عبدالحميد شراقي</h5>
-                                                            <p>muhammadsharaqi@gmail.com</p>
-                                                        </li>
-                                        </div>
-                                    </div>
-                    
-                                </div>
-                                
-                            </div>
-                        </div>
-                    
-                    </div>
-                    <div class="col-xs col-sm-12 col-md-6 col-lg-6">
-                        <!-- info  -->
-                        <div class="row info">
-                            <div class="card">
-                                <div class="row">
-                                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="row">
-                                            <h4>العنوان</h4>
-                                            <p>بني غازي</p>
-                                        </div>
-                                        <div class="row">
-                                            <h4>المحفظة</h4>
-                                            <p>220 دينار</p>
-                                        </div>
-                                        
-                                    </div>
-                    
-                                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="row">
-                                            <h4>هاتف</h4>
-                                            <p>01987654321</p>
-                                        </div>
-                                        <div class="row">
-                                            <h4>طريقة الدفع</h4>
-                                            <p>فيزا</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                    </div>
-        
-                    
-        
+    <!-- categories -->
+    <div class="categories AppearsInLgOnly">
+            <div class="row ">
+                <div class="container">
+                    <!-- الاقسام هتطلع معاك من اليمين للشمال واول عنصر ع اليمين مكتوب تحت خالص
+                        يعني في الكود مترتبة من تحت لفوق وفي المتصفح من اليمين للشمال -->
+                    <ul>
+                        <li><a href="/">إلكترونيات</a></li>
+                        <li><a href="/">موبايلات</a></li>
+                        <li><a href="/">ملابس</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">إلكترونيات</a></li>
+                        <li><a href="/">موبايلات</a></li>
+                        <li><a href="/">ملابس</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">ألعاب</a></li>
+                        <li><a href="/">رياضة</a></li>
+                        <li><a href="/">كل الأقسام</a></li>
+                    </ul>
                 </div>
             </div>
+    
+            <div class="choose">
+                <div class="container">
+                    <div class="row" style="text-align: right; padding: 40px 0 20px 0">
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                            <a href="">
+                                <p>اطفال</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
         
+    <!-- details -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs col-sm-12 col-md-6 col-lg-6">
+                <div class="row">
+                    <div class="card cart-items">
+                        <div class="row itembyitem">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="row">
+                                    <ul class="side-bar">
+                                        <li class="side-bar-profile">
+                                            <div class="side-bar-img"></div>
+                                            <h5>محمد عبدالحميد شراقي</h5>
+                                            <p>muhammadsharaqi@gmail.com</p>
+                                        </li>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs col-sm-12 col-md-6 col-lg-6">
+                <!-- info  -->
+                <div class="row info">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="row">
+                                    <h4>العنوان</h4>
+                                    <p>بني غازي</p>
+                                </div>
+                                <div class="row">
+                                    <h4>المحفظة</h4>
+                                    <p>220 دينار</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="row">
+                                    <h4>هاتف</h4>
+                                    <p>01987654321</p>
+                                </div>
+                                <div class="row">
+                                    <h4>طريقة الدفع</h4>
+                                    <p>فيزا</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <div class="other">
+        <div class="container">
+            <div class="row">
+                <h5 style="text-align: right; margin: 50px 15px 20px 0">مشترياتي</h5>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="container">
+                <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0; margin-bottom: 15px">
+                                <a class='item-card-a' href="details.html">
+                                    <div class="card item">
+                                        <div class="item-img"></div>
+                                        <div class="item-info">
+                                            <div class="row">
+                                                <h4>ايفون اكس</h4>
+                                            </div>
+                                            <div class="row">
+                                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                                            </div>
+                                            <div class="row">
+                                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                                            </div>
+                                            <div class="row" style="margin: 10px 0 0 0;">
+                                                <div class="col-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                                        class="fas fa-heart E"></i></div>
+                                                <div class="col-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                                    <!-- old price -->
+                                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                                    <!-- new price -->
+                                                </div>
+                                            </div>
+        
+                                            <div class="row">
+                                                <a href="/">
+                                                    <button>أضف الى عربة الشراء</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 15px">
+                                <a class='item-card-a' href="details.html">
+                                    <div class="card item">
+                                        <div class="item-img"></div>
+                                        <div class="item-info">
+                                            <div class="row">
+                                                <h4>ايفون اكس</h4>
+                                            </div>
+                                            <div class="row">
+                                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                                            </div>
+                                            <div class="row">
+                                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                                            </div>
+                                            <div class="row" style="margin: 10px 0 0 0;">
+                                                <div class="col-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                                        class="fas fa-heart E"></i></div>
+                                                <div class="col-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                                    <!-- old price -->
+                                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                                    <!-- new price -->
+                                                </div>
+                                            </div>
+        
+                                            <div class="row">
+                                                <a href="/">
+                                                    <button>أضف الى عربة الشراء</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="padding: 0; margin-bottom: 15px">
+                                <a class='item-card-a' href="details.html">
+                                    <div class="card item">
+                                        <div class="item-img"></div>
+                                        <div class="item-info">
+                                            <div class="row">
+                                                <h4>ايفون اكس</h4>
+                                            </div>
+                                            <div class="row">
+                                                <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                                            </div>
+                                            <div class="row">
+                                                <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                                    <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                                            </div>
+                                            <div class="row" style="margin: 10px 0 0 0;">
+                                                <div class="col-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                                        class="fas fa-heart E"></i></div>
+                                                <div class="col-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                                    <!-- old price -->
+                                                    <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                                    <!-- new price -->
+                                                </div>
+                                            </div>
+        
+                                            <div class="row">
+                                                <a href="/">
+                                                    <button>أضف الى عربة الشراء</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-3" style="margin-bottom: 15px">
+                                    <a class='item-card-a' href="details.html">
+                                        <div class="card item">
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <div class="row">
+                                                    <h4>ايفون اكس</h4>
+                                                </div>
+                                                <div class="row">
+                                                    <p>ايفون اكس 64 جيجا مع فيس اي دي</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p><i class="fas fa-star A"></i> <i class="fas fa-star B"></i> <i class="fas fa-star C"></i>
+                                                        <i class="fas fa-star D"></i> <i class="fas fa-star E"></i></p>
+                                                </div>
+                                                <div class="row" style="margin: 10px 0 0 0;">
+                                                    <div class="col-3 col-sm-3 col-md-2 col-lg-2" style="padding-left: 0; text-align: left"><i
+                                                            class="fas fa-heart E"></i></div>
+                                                    <div class="col-9 col-sm-9 col-md-10 col-lg-10" style="padding-right: 0; text-align: right">
+                                                        <!-- old price -->
+                                                        <span><strike class="E">3600</strike> <span class="price">دينار 2400</span></span>
+                                                        <!-- new price -->
+                                                    </div>
+                                                </div>
+            
+                                                <div class="row">
+                                                    <a href="/">
+                                                        <button>أضف الى عربة الشراء</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+
+                                
+                                
+                        
+                </div>
+            </div>
+    </div>
 
     <!-- footer -->
     <div class="footer">
@@ -190,8 +446,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <script src="public/js/main.js"></script>
-        <script src="public/js/main.js"></script>
+    <script src="public/js/main.js"></script>
+    <script src="public/js/main.js"></script>
 
 </body>
 
